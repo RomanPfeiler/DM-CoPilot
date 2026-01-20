@@ -1,9 +1,8 @@
 
-PROJECT: Dungeon Master Co-Pilot
+# PROJECT: Dungeon Master Co-Pilot
 
 
 1. PROJECT SUMMARY
-------------------------------------------------------------------------------
 
 The Dungeon Master Co-Pilot is an AI assistant designed for Tabletop Roleplaying
 Games (TTRPGs). Unlike standard chatbots, it "listens" to the game transcript 
@@ -12,9 +11,9 @@ rules or campaign lore, it proactively retrieves the relevant information from
 PDF rulebooks and campaign manuals, and presents it to the DM.
 
 
+------------------------------------------------------------------------------
 
 2. DATASET INFORMATION
-------------------------------------------------------------------------------
 
 The system relies on three distinct categories of data:
 
@@ -33,9 +32,9 @@ C. Input Data
    * Processing: The raw text is treated as a continuous stream, chunked into 
      70-word sliding windows to simulate real-time conversation flow.
 
-
-3. ARCHITECTURE & APPROACH
 ------------------------------------------------------------------------------
+3. ARCHITECTURE & APPROACH
+
 
 A. The "Active Loop" (RAG Pipeline)
    Unlike standard RAG (which waits for a user query), this system runs a 
@@ -56,9 +55,9 @@ C. Hybrid LLM Deployment
    * Cloud Mode: Google Gemini 2.0 Flash
    * Local Mode: Llama-3.2-1B via Ollama
 
+------------------------------------------------------------------------------
 
 4. RESULTS & ITERATION HISTORY
-------------------------------------------------------------------------------
 
 The project evolved through 6 major versions.
 * Baseline: 
@@ -69,17 +68,17 @@ The project evolved through 6 major versions.
   - Fine-Tuning: The custom Qwen model fine-tuned on rule book query chunks and synthentic positive context.
   - Use local LLM: Switching to local Llama-3.2-1B 
 
-
-5. DISCUSSION
 ------------------------------------------------------------------------------
+5. DISCUSSION
 
+
+------------------------------------------------------------------------------
 
 7. LIMITATIONS
-------------------------------------------------------------------------------
 
+------------------------------------------------------------------------------
 
 8. QUICK START INSTRUCTIONS
-------------------------------------------------------------------------------
 
 A. Environment Setup
    1. Install Python 3.10+
