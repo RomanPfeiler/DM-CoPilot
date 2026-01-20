@@ -1,6 +1,6 @@
-==============================================================================
+
 PROJECT: Dungeon Master Co-Pilot
-==============================================================================
+
 
 1. PROJECT SUMMARY
 ------------------------------------------------------------------------------
@@ -10,6 +10,7 @@ Games (TTRPGs). Unlike standard chatbots, it "listens" to the game transcript
 in real-time. When it detects that the Dungeon Master (DM) or players are discussing 
 rules or campaign lore, it proactively retrieves the relevant information from 
 PDF rulebooks and campaign manuals, and presents it to the DM.
+
 
 
 2. DATASET INFORMATION
